@@ -6,7 +6,7 @@ import java.util.Date;
  * 
  * @Title:BeanWayService.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:06:56
+ * @Date:2017-07-03 15:06:56
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:
@@ -19,7 +19,7 @@ public class BeanWayService {
 
 	public BeanWayService() {
 		super();
-		System.out.println("³õÊ¼»¯¹¹Ôìº¯Êı-BeanWayService" + new Date().toLocaleString());
+		System.out.println("åˆå§‹åŒ–æ„é€ å‡½æ•°-BeanWayService" + new Date().toLocaleString());
 	}
 
 	public void destroy() {

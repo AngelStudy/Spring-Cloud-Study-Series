@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
  * 
  * @Title:AssemblyService.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:02:07
+ * @Date:2017-07-03 15:02:07
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:
@@ -14,6 +14,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class AssemblyService {
 	public void out() {
-		System.out.println("×Ô¶¨Òå×éºÏ×¢½â");
+		System.out.println("è‡ªå®šä¹‰ç»„åˆæ³¨è§£");
 	}
 }

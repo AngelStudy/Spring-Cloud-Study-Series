@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
  * 
  * @Title:AntoBeanConfig.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç2:53:09
+ * @Date:2017å¹´7æœˆ3æ—¥ä¸‹åˆ2:53:09
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:config class

@@ -9,28 +9,28 @@ import javax.annotation.PreDestroy;
  * 
  * @Title:JSR250WayService.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:07:03
+ * @Date:2017-07-03 15:07:03
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:
  */
 public class JSR250WayService {
 
-	// ÔÚ¹¹Ôìº¯Êı Ö´ĞĞÍê±ÏÖ®ºó Ö´ĞĞ
+	// åœ¨æ„é€ å‡½æ•° æ‰§è¡Œå®Œæ¯•ä¹‹å æ‰§è¡Œ
 	@PostConstruct
 	public void init() {
-		System.out.println("¹¹Ôìº¯Êı Ö´ĞĞÍê±ÏÖ®ºó Ö´ĞĞ-JSR250-init-method" + new Date().toLocaleString());
+		System.out.println("æ„é€ å‡½æ•° æ‰§è¡Œå®Œæ¯•ä¹‹å æ‰§è¡Œ-JSR250-init-method" + new Date().toLocaleString());
 	}
 
 	public JSR250WayService() {
 		super();
-		System.out.println("³õÊ¼»¯¹¹Ôìº¯Êı-JSR250WayService" + new Date().toLocaleString());
+		System.out.println("åˆå§‹åŒ–æ„é€ å‡½æ•°-JSR250WayService" + new Date().toLocaleString());
 	}
 
-	// ÔÚBeanÏú»ÙÖ®Ç°Ö´ĞĞ
+	// åœ¨Beané”€æ¯ä¹‹å‰æ‰§è¡Œ
 	@PreDestroy
 	public void destroy() {
-		System.out.println("BeanÏú»ÙÖ®Ç°Ö´ĞĞ-JSR250-destroy-method" + new Date().toLocaleString());
+		System.out.println("Beané”€æ¯ä¹‹å‰æ‰§è¡Œ-JSR250-destroy-method" + new Date().toLocaleString());
 	}
 
 }

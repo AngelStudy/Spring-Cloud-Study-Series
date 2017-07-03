@@ -13,10 +13,10 @@ import org.springframework.context.annotation.Configuration;
  * 
  * @Title:AssemblyConfig.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:01:17
+ * @Date:2017-07-03 15:01:17
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
- * @Description:×Ô¶¨Òå×éºÏ×¢½â
+ * @Description:è‡ªå®šä¹‰ç»„åˆæ³¨è§£
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

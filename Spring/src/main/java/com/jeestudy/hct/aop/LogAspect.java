@@ -14,10 +14,10 @@ import org.springframework.stereotype.Component;
  * 
  * @Title:LogAspect.java
  * @Auth:Angel
- * @Date:2017年7月3日下午2:58:04
+ * @Date:2017-07-03 14:58:04
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
- * @Description:使用注解配置AOP 分别测试 注解方式和方法规则式
+ * @Description:浣跨敤娉ㄨВ閰嶇疆AOP 鍒嗗埆娴嬭瘯 娉ㄨВ鏂瑰紡鍜屾柟娉曡鍒欏紡
  */
 @Aspect
 @Component
@@ -35,14 +35,14 @@ public class LogAspect {
 		MethodSignature signature = (MethodSignature) joinpoint.getSignature();
 		Method method = signature.getMethod();
 		Action action = method.getAnnotation(Action.class);
-		System.out.println("after - 注解式拦截：" + action.name());
+		System.out.println("after - 娉ㄨВ寮忔嫤鎴細" + action.name());
 	}
 
 	@Before("execution(* com.jeestudy.hct.aop.MethodService.*(..))")
 	public void before(JoinPoint joinpoint) {
 		MethodSignature signature = (MethodSignature) joinpoint.getSignature();
 		Method method = signature.getMethod();
-		System.out.println("before - 方法规则式拦截：" + method.getName());
+		System.out.println("before - 鏂规硶瑙勫垯寮忔嫤鎴細" + method.getName());
 	}
 
 }

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
  * 
  * @Title:AsyncTaskService.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:09:48
+ * @Date:2017-07-03 15:09:48
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:
@@ -17,12 +17,12 @@ public class AsyncTaskService {
 
 	@Async
 	public void exeAsycTask(int i) {
-		System.out.println("Ö´ĞĞÒì²½ÈÎÎñ£º" + i);
+		System.out.println("æ‰§è¡Œå¼‚æ­¥ä»»åŠ¡ï¼š" + i);
 	}
 
 	@Async
 	public void exeAsycTaskPlus(int i) {
-		System.out.println("Ö´ĞĞÒì²½ÈÎÎñPlus£º" + ++i);
+		System.out.println("æ‰§è¡Œå¼‚æ­¥ä»»åŠ¡Plusï¼š" + ++i);
 	}
 
 }

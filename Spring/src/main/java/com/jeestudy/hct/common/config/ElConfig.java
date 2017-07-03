@@ -13,7 +13,7 @@ import org.springframework.core.io.Resource;
  * 
  * @Title:ElConfig.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:08:19
+ * @Date:2017-07-03 15:08:19
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:
@@ -23,35 +23,35 @@ import org.springframework.core.io.Resource;
 @PropertySource("classpath:DB.properties")
 public class ElConfig {
 
-	// 1.¶ÁÈ¡ÊôĞÔÎÄ¼ş - ÓÃ $ ·ûºÅ
+	// 1.è¯»å–å±æ€§æ–‡ä»¶ - ç”¨ $ ç¬¦å·
 	@Value("${db.user}")
 	private String dbuser;
 
-	// 2.¶ÁÈ¡BeanÊôĞÔµÄÖµ - ÓÃ # ·ûºÅ
+	// 2.è¯»å–Beanå±æ€§çš„å€¼ - ç”¨ # ç¬¦å·
 	@Value("#{user.name}")
 	private String userName;
 
-	// 3.¶ÁÈ¡ÏµÍ³ÊôĞÔ
+	// 3.è¯»å–ç³»ç»Ÿå±æ€§
 	@Value("#{systemProperties['os.name']}")
 	private String osName;
 
-	// 4.¶ÁÈ¡×ÖÃæÖµ
+	// 4.è¯»å–å­—é¢å€¼
 	@Value("I love you")
 	private String nomalStr;
 
-	// 5.¶ÁÈ¡±í´ïÊ½µÄÖµ
+	// 5.è¯»å–è¡¨è¾¾å¼çš„å€¼
 	@Value("#{T(java.lang.Math).random()*100.0}")
 	private double randomNum;
 
-	// 6.¶ÁÈ¡ÎÄ¼şµÄÖµ
+	// 6.è¯»å–æ–‡ä»¶çš„å€¼
 	@Value("classpath:file.txt")
 	private Resource rs;
 
-	// 7.¶ÁÈ¡ÍøÖ·µÄÖµ
+	// 7.è¯»å–ç½‘å€çš„å€¼
 	@Value("http://www.baidu.com")
 	private Resource urlRs;
 
-	// 8.¶ÁÈ¡ÊôĞÔÎÄ¼ş ×¢ÈëµÄ DB.properties ¿ÉÒÔÕâÑù¶ÁÈ¡
+	// 8.è¯»å–å±æ€§æ–‡ä»¶ æ³¨å…¥çš„ DB.properties å¯ä»¥è¿™æ ·è¯»å–
 	@Autowired
 	private Environment environment;
 

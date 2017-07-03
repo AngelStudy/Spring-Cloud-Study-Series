@@ -13,14 +13,14 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
  * 
  * @Title:AsyncConfig.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:09:43
+ * @Date:2017-07-03 15:09:43
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:
  */
 @Configuration
 @ComponentScan("com.jeestudy.hct.mutithread")
-// ¿ªÆôÒì²½ÈÎÎñÖ§³Ö
+// å¼€å¯å¼‚æ­¥ä»»åŠ¡æ”¯æŒ
 @EnableAsync
 public class AsyncConfig implements AsyncConfigurer {
 

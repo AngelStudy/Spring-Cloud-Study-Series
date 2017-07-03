@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * 
  * @Title:EventListener.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:09:31
+ * @Date:2017-07-03 15:09:31
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:
@@ -19,7 +19,7 @@ public class EventListener implements ApplicationListener<DefEvent> {
 	public void onApplicationEvent(DefEvent event) {
 		String msg = event.getMsg();
 
-		System.out.println("¼àÌıµ½µÄÊÂ¼şĞÅÏ¢£º" + msg);
+		System.out.println("ç›‘å¬åˆ°çš„äº‹ä»¶ä¿¡æ¯ï¼š" + msg);
 
 	}
 

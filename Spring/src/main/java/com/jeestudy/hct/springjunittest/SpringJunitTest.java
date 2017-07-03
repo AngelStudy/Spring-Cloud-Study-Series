@@ -15,16 +15,16 @@ import com.jeestudy.hct.profile.ProfileConfig;
  * 
  * @Title:SpringJunitTest.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:10:22
+ * @Date:2017-07-03 15:10:22
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
- * @Description:ÓÃ SpringJunit ²âÊÔ
+ * @Description:ç”¨ SpringJunit æµ‹è¯•
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { ProfileConfig.class })
 @ActiveProfiles("product")
 public class SpringJunitTest {
-	// Ê¹ÓÃ package com.jeestudy.hct.profile °üÏÂµÄBeanºÍconfig
+	// ä½¿ç”¨ package com.jeestudy.hct.profile åŒ…ä¸‹çš„Beanå’Œconfig
 
 	@Autowired
 	private ProfileBean profileBean;

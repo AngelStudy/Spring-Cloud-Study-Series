@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  * 
  * @Title:ScheduleTaskService.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç3:10:08
+ * @Date:2017-07-03 15:10:08
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:
@@ -21,12 +21,12 @@ public class ScheduleTaskService {
 
 	@Scheduled(fixedRate = 2000)
 	public void repeatCurrentDateTimeOfFixRate() {
-		System.out.println("Ã¿¸ô5ÃëÖÓÖ´ĞĞÒ»´Î£º" + DATE_FORMAT.format(new Date()));
+		System.out.println("æ¯éš”5ç§’é’Ÿæ‰§è¡Œä¸€æ¬¡ï¼š" + DATE_FORMAT.format(new Date()));
 	}
 
 	@Scheduled(cron = "0 09 11 ? * *")
 	public void repeatCurrentDateTimeOfCron() {
-		System.out.println("Ö¸¶¨Ê±¼äÖ´ĞĞ£º" + DATE_FORMAT.format(new Date()));
+		System.out.println("æŒ‡å®šæ—¶é—´æ‰§è¡Œï¼š" + DATE_FORMAT.format(new Date()));
 	}
 
 }

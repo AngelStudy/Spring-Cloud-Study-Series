@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * 
  * @Title:User.java
  * @Auth:Angel
- * @Date:2017年7月3日下午3:08:29
+ * @Date:2017-07-03 15:08:29
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:

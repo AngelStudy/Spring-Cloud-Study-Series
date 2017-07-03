@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * 
  * @Title:ScheduleTaskConfig.java
  * @Auth:Angel
- * @Date:2017年7月3日下午3:10:04
+ * @Date:2017-07-03 15:10:04
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
  * @Description:

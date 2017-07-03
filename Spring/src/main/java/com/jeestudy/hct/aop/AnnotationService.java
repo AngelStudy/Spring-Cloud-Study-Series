@@ -6,14 +6,14 @@ import org.springframework.stereotype.Service;
  * 
  * @Title:AnnotationService.java
  * @Auth:Angel
- * @Date:2017Äê7ÔÂ3ÈÕÏÂÎç2:57:09
+ * @Date:2017-07-03 14:57:09
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
- * @Description:Ê¹ÓÃ×Ô¶¨Òå×¢½â @Action
+ * @Description:ä½¿ç”¨è‡ªå®šä¹‰æ³¨è§£ @Action
  */
 @Service
 public class AnnotationService {
-	@Action(name = "×¢½âÊ½À¹½Øadd()")
+	@Action(name = "æ³¨è§£å¼æ‹¦æˆªadd()")
 	public void add() {
 
 		System.out.println("AnnotationService.add()");

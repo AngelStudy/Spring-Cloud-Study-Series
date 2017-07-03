@@ -4,10 +4,10 @@ package com.jeestudy.hct.assembly.annotation;
  * 
  * @Title:AssemblyConfigApply.java
  * @Auth:Angel
- * @Date:2017年7月3日下午3:01:50
+ * @Date:2017-07-03 15:01:50
  * @WebSite:www.jeestudy.com
  * @Email:chengtai_he@163.com
- * @Description:使用自定义的组合注解
+ * @Description:浣跨敤鑷畾涔夌殑缁勫悎娉ㄨВ
  */
 @AssemblyConfig("com.jeestudy.hct.assembly.annotation")
 public class AssemblyConfigApply {
