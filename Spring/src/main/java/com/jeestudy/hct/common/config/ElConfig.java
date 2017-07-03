@@ -9,6 +9,15 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.core.io.Resource;
 
+/**
+ * 
+ * @Title:ElConfig.java
+ * @Auth:Angel
+ * @Date:2017年7月3日下午3:08:19
+ * @WebSite:www.jeestudy.com
+ * @Email:chengtai_he@163.com
+ * @Description:
+ */
 @Configuration
 @ComponentScan("com.jeestudy.hct.common.config")
 @PropertySource("classpath:DB.properties")

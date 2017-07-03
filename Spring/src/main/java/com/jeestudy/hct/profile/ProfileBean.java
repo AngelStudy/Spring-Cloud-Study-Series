@@ -1,5 +1,14 @@
 package com.jeestudy.hct.profile;
 
+/**
+ * 
+ * @Title:ProfileBean.java
+ * @Auth:Angel
+ * @Date:2017年7月3日下午3:09:53
+ * @WebSite:www.jeestudy.com
+ * @Email:chengtai_he@163.com
+ * @Description:
+ */
 public class ProfileBean {
 	private String content;
 

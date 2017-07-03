@@ -9,9 +9,18 @@ import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
+/**
+ * 
+ * @Title:AsyncConfig.java
+ * @Auth:Angel
+ * @Date:2017年7月3日下午3:09:43
+ * @WebSite:www.jeestudy.com
+ * @Email:chengtai_he@163.com
+ * @Description:
+ */
 @Configuration
 @ComponentScan("com.jeestudy.hct.mutithread")
-//开启异步任务支持
+// 开启异步任务支持
 @EnableAsync
 public class AsyncConfig implements AsyncConfigurer {
 

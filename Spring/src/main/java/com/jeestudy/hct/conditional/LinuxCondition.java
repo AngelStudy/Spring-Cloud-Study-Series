@@ -4,6 +4,15 @@ import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 
+/**
+ * 
+ * @Title:LinuxCondition.java
+ * @Auth:Angel
+ * @Date:2017年7月3日下午3:08:58
+ * @WebSite:www.jeestudy.com
+ * @Email:chengtai_he@163.com
+ * @Description:
+ */
 public class LinuxCondition implements Condition {
 
 	@Override

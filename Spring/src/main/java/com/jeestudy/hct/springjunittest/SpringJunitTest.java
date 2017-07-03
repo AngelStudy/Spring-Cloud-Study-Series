@@ -11,7 +11,15 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.jeestudy.hct.profile.ProfileBean;
 import com.jeestudy.hct.profile.ProfileConfig;
 
-//用 SpringJunit 测试
+/**
+ * 
+ * @Title:SpringJunitTest.java
+ * @Auth:Angel
+ * @Date:2017年7月3日下午3:10:22
+ * @WebSite:www.jeestudy.com
+ * @Email:chengtai_he@163.com
+ * @Description:用 SpringJunit 测试
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { ProfileConfig.class })
 @ActiveProfiles("product")

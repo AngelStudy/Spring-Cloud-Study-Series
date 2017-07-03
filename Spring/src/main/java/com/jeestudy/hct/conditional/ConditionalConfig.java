@@ -4,6 +4,15 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * 
+ * @Title:ConditionalConfig.java
+ * @Auth:Angel
+ * @Date:2017年7月3日下午3:08:41
+ * @WebSite:www.jeestudy.com
+ * @Email:chengtai_he@163.com
+ * @Description:
+ */
 @Configuration
 public class ConditionalConfig {
 	@Bean

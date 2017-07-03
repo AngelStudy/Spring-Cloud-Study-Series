@@ -9,6 +9,15 @@ import java.lang.annotation.Target;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * 
+ * @Title:AssemblyConfig.java
+ * @Auth:Angel
+ * @Date:2017年7月3日下午3:01:17
+ * @WebSite:www.jeestudy.com
+ * @Email:chengtai_he@163.com
+ * @Description:自定义组合注解
+ */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

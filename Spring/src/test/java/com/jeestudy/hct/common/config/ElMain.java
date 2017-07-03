@@ -2,10 +2,19 @@ package com.jeestudy.hct.common.config;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+/**
+ * 
+ * @Title:ElMain.java
+ * @Auth:Angel
+ * @Date:2017年7月3日下午3:12:56
+ * @WebSite:www.jeestudy.com
+ * @Email:chengtai_he@163.com
+ * @Description:
+ */
 public class ElMain {
 
 	public static void main(String[] args) {
-		
+
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(ElConfig.class);
 
 		ElConfig el = ctx.getBean(ElConfig.class);
@@ -15,7 +24,7 @@ public class ElMain {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		ctx.close();
 
 	}
